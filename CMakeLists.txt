@@ -1,0 +1,29 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+        Image/image.h
+        Image/color.h
+        Image/color.h
+        Image/color.h
+        Image/image.cpp
+        Image/color.cpp
+        Filters/crop.cpp
+        Filters/negative.cpp
+        Filters/grayscale.cpp
+        Reading_And_Writing/reader.cpp
+        Reading_And_Writing/writer.cpp
+        Filters/MatrixFilter/matrixfilter.h
+        Filters/MatrixFilter/matrixfilter.cpp
+        Filters/MatrixFilter/sharp.h
+        Filters/MatrixFilter/sharp.cpp
+        Filters/MatrixFilter/edge.cpp
+        Parsing/parser.h
+        Parsing/parser.cpp
+        Filter_Controller/filter_controller.h
+        Filter_Controller/filter_controller.cpp
+        Filters/gauss.cpp
+        Filters/gauss.h
+        Filters/sepia.h
+        Filters/sepia.cpp
+        Tests/unit_tests.cpp
+)
